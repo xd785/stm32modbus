@@ -1,0 +1,11 @@
+---- USE_STDPERIPH_DRIVER Matches (10 in 2 files) ----
+Readme.txt (d:\gpio\ewarm):           preprocessor section: USE_STDPERIPH_DRIVER, STM32F10X_MD_VL, USE_STM32100B_EVAL
+Readme.txt (d:\gpio\ewarm):           preprocessor section: USE_STDPERIPH_DRIVER, STM32F10X_CL, USE_STM3210C_EVAL
+Readme.txt (d:\gpio\ewarm):           preprocessor section: USE_STDPERIPH_DRIVER, STM32F10X_MD, USE_STM3210B_EVAL
+Readme.txt (d:\gpio\ewarm):           preprocessor section: USE_STDPERIPH_DRIVER, STM32F10X_HD, USE_STM3210E_EVAL
+Readme.txt (d:\gpio\ewarm):           preprocessor section: USE_STDPERIPH_DRIVER, STM32F10X_XL, USE_STM3210E_EVAL
+Readme.txt (d:\gpio\ewarm):           preprocessor section: USE_STDPERIPH_DRIVER, STM32F10X_HD_VL, USE_STM32100E_EVAL           
+Stm32f10x.h (d:\gpio\libraries\cmsis\cm3\devicesupport\st\stm32f10x):  *                "#define USE_STDPERIPH_DRIVER"
+Stm32f10x.h (d:\gpio\libraries\cmsis\cm3\devicesupport\st\stm32f10x):#if !defined  USE_STDPERIPH_DRIVER
+Stm32f10x.h (d:\gpio\libraries\cmsis\cm3\devicesupport\st\stm32f10x):  #define USE_STDPERIPH_DRIVER 
+Stm32f10x.h (d:\gpio\libraries\cmsis\cm3\devicesupport\st\stm32f10x):#ifdef USE_STDPERIPH_DRIVER
