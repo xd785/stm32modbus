@@ -24,9 +24,11 @@
 #include <stdio.h>
 #include "mb.h"
 #include "stm32f10x_usart.h"
+
 /* ----------------------- Modbus includes ----------------------------------*/
 #include "mb.h"
 #include "mbport.h"
+
 
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
@@ -35,11 +37,13 @@
 #include "mb.h"
 #include "mbport.h"
 
+
 /* ----------------------- Defines ------------------------------------------*/
 #define REG_INPUT_START   1000
 #define REG_INPUT_NREGS   4
 #define REG_HOLDING_START 1000
 #define REG_HOLDING_NREGS 130
+
 
 /* ----------------------- Static variables ---------------------------------*/
 static USHORT   usRegInputStart = REG_INPUT_START;
@@ -47,6 +51,7 @@ static USHORT   usRegInputBuf[REG_INPUT_NREGS];
 static USHORT   usRegHoldingStart = REG_HOLDING_START;
 static USHORT   usRegHoldingBuf[REG_HOLDING_NREGS];
 static USHORT temp;
+
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
  
@@ -56,6 +61,7 @@ __IO uint32_t TimingDelay;
 GPIO_InitTypeDef GPIO_InitStructure;
 
 ErrorStatus HSEStartUpStatus;
+
 /* Private function prototypes -----------------------------------------------*/
 void RCC_Configuration(void);
 void Delay(__IO uint32_t );
