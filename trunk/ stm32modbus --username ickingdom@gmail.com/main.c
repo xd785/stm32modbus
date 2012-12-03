@@ -28,8 +28,6 @@
 /* ----------------------- Modbus includes ----------------------------------*/
 #include "mb.h"
 #include "mbport.h"
-
-
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
   */
